@@ -1,0 +1,12 @@
+Ali,    80
+
+Umer, 90
+Asim, 10.9
+Umer, 100
+Ali, 10.2
+Musa, 20
+
+Qasim, nine
+Abdullah, 80.314
+
+    Musa, 45

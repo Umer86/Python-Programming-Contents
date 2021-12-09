@@ -1,0 +1,26 @@
+Let's do some exercises
+working with files. Create an open_read_file
+function that opens a given file, reads each line, and
+prints it to the console. So let's define the open_read_file
+function for a given file. Opens the given file, reads each line, and prints to the console,
+also closes the given file. We're going to use the open
+function to open the file. Give it the name of the file. And then we're going to
+open it in read mode. This will return a stream,
+we'll call that f. So opens the given file in read mode. And just for fun, let's go ahead and
+print the type of f. Print the type of the stream f. Before we actually read and
+print each line in the file, let's just see if we can open the file. So I'm going to define a main function,
+and then I'm going to call open_read_file, and I'm going to provide
+the name of a file. Here in my same directory, my project
+directory, I have a news.txt file. Let's take a look at that. This is some news from
+The Wall Street Journal. We're going to open and read this file. So if I go back here, I can specify
+the name of that file news.txt, I don't need to provide a full path to the
+file because it's in the same directory. And then if_name_==_main. Call main, run my program. I see it opened the file and then it printed the type of that
+stream which is a TextIOWrapper. Let's add the rest of
+the code in our function. I'm going to create a count, set it to 0. This is going to be used for
+counting the lines in the file. And then when I read and print each line of the file, f,
+while there is a line to read. So f.readline,
+this reads one line in the file. So it's the first line. Store that in line. While line is not null. Print the line. Get the next line. And then increment the count. Reads and prints each line in f, while there is a line to read
+once we get outside of the loop. Let's print the count of lines,
+print there are cnt, lines in the file. And then we're just
+going to close the file. Run our program. Prints out each line in the file, and then it prints there are 10 lines in
+the file, and then it closes the file.
